@@ -5,8 +5,23 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com:nuxtaid/project.git"
+    "url": "git@github.com:nuxtaid/project.git",
+    "directory": "packages/web"
   },
   "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "catalog:",
+    "@nuxtjs/tailwindcss": "catalog:",
+    "@vueuse/nuxt": "catalog:",
+    "nuxt": "catalog:",
+    "vue": "catalog:"
+  },
+  "devDependencies": {
   }
 }

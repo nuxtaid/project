@@ -11,6 +11,15 @@
   "scripts": {
     "build": "pnpm -r --filter=\"./packages/**/*\" run build",
     "boot": "f () { pnpm --filter ${1:-'*'} $2 ;}; f",
-    "lint": "eslint --cache ."
+    "lint": "eslint --cache .",
+    "lint:fix": "eslint --cache --fix ."
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "catalog:",
+    "eslint": "catalog:",
+    "tailwindcss": "catalog:",
+    "nuxt": "catalog:",
+    "typescript": "catalog:",
+    "vue": "catalog:"
   }
 }

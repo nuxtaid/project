@@ -7,6 +7,5 @@
     "type": "git",
     "url": "git@github.com:nuxtaid/project.git"
   },
-  "scripts": {
-  }
+  "scripts": {}
 }
