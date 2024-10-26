@@ -1,0 +1,16 @@
+{
+  "name": "@nuxtaid/monorepo",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.11.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nuxtaid/project.git"
+  },
+  "scripts": {
+    "build": "pnpm -r --filter=\"./packages/**/*\" run build",
+    "boot": "f () { pnpm --filter ${1:-'*'} $2 ;}; f",
+    "lint": "eslint --cache ."
+  }
+}

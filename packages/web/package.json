@@ -1,0 +1,12 @@
+{
+  "name": "@nuxtaid/web",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nuxtaid/project.git"
+  },
+  "scripts": {
+  }
+}
