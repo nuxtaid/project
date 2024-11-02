@@ -16,9 +16,11 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "catalog:",
+    "clsx": "catalog:",
     "eslint": "catalog:",
-    "tailwindcss": "catalog:",
     "nuxt": "catalog:",
+    "tailwind-merge": "catalog:",
+    "tailwindcss": "catalog:",
     "typescript": "catalog:",
     "vue": "catalog:"
   }

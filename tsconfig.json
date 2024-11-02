@@ -5,6 +5,7 @@
     "**/playground",
     "**/playgrounds",
     "**/clones",
-    "**/docs"
+    "**/docs",
+    "**/node_modules",
   ]
 }

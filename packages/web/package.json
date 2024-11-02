@@ -17,11 +17,10 @@
   },
   "dependencies": {
     "@nuxt/icon": "catalog:",
+    "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/tailwindcss": "catalog:",
     "@vueuse/nuxt": "catalog:",
     "nuxt": "catalog:",
     "vue": "catalog:"
-  },
-  "devDependencies": {
   }
 }

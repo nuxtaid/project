@@ -4,11 +4,20 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@vueuse/nuxt',
     '@nuxt/eslint',
+    '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
   ],
 
   devtools: {
     enabled: true,
+  },
+
+  colorMode: {
+    hid: 'color-mode-script',
+    globalName: '__COLOR_MODE__',
+    storageKey: 'color-mode',
+    preference: 'dark',
+    classSuffix: '',
   },
 
   future: {
@@ -21,4 +30,5 @@ export default defineNuxtConfig({
       stylistic: true,
     },
   },
+
 })
