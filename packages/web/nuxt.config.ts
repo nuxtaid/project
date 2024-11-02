@@ -4,12 +4,18 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@vueuse/nuxt',
     '@nuxt/eslint',
+    'nuxt-og-image',
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
   ],
 
   devtools: {
     enabled: true,
+  },
+
+  site: {
+    url: 'http://localhost:3000/',
+    name: 'Nuxt Aid',
   },
 
   colorMode: {
@@ -23,11 +29,24 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+
+  experimental: {
+    componentIslands: true,
+  },
+
   compatibilityDate: '2024-04-03',
 
   eslint: {
     config: {
       stylistic: true,
+    },
+  },
+
+  ogImage: {
+    compatibility: {
+      prerender: {
+        chromium: false,
+      },
     },
   },
 

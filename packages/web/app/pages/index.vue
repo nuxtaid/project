@@ -1,3 +1,14 @@
+<script setup lang="ts">
+useServerSeoMeta({
+  title: 'Nuxt Aid',
+  description: 'A community for developers and non-profits to learn, share, and build impactful solutions with Nuxt.',
+})
+
+defineOgImage({
+  component: 'OgImageBase',
+})
+</script>
+
 <template>
   <main>
     <section class="relative h-screen">
