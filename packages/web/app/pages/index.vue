@@ -12,7 +12,7 @@ defineOgImage({
 <template>
   <main>
     <section class="relative h-screen">
-      <PlusAurora />
+      <AidAurora />
       <div class="relative flex flex-col gap-4 items-center h-full justify-center max-w-6xl mx-auto text-center">
         <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight max-w-4xl">
           Building

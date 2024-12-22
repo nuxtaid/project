@@ -1,12 +1,8 @@
 export default defineNuxtConfig({
 
   modules: [
-    '@nuxt/icon',
-    '@vueuse/nuxt',
     '@nuxt/eslint',
-    'nuxt-og-image',
-    '@nuxtjs/color-mode',
-    '@nuxtjs/tailwindcss',
+    '@nuxtaid/core',
   ],
 
   devtools: {
