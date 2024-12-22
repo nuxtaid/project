@@ -1,3 +1,3 @@
-# NuxtAid Plus
+# NuxtAid Core
 
 > The component library of NuxtAid.

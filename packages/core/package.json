@@ -1,0 +1,44 @@
+{
+  "name": "@nuxtaid/core",
+  "version": "0.0.1",
+  "description": "My new Nuxt module",
+  "repository": "your-org/my-module",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "nuxt-module-build build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
+    "release": "npm run lint && npm run build && npm publish && git push --follow-tags"
+  },
+  "dependencies": {
+    "@nuxt/fonts": "catalog:",
+    "@nuxt/icon": "catalog:",
+    "@nuxt/kit": "catalog:",
+    "@nuxtjs/color-mode": "catalog:",
+    "@nuxtjs/seo": "catalog:",
+    "@nuxtjs/tailwindcss": "catalog:"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "catalog:",
+    "@nuxt/module-builder": "catalog:",
+    "@nuxt/schema": "catalog:",
+    "@types/node": "latest",
+    "nuxt": "catalog:",
+    "typescript": "catalog:",
+    "vue-tsc": "^2.1.8"
+  }
+}
