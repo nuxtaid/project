@@ -1,6 +1,6 @@
 {
   "name": "@nuxtaid/core",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A Nuxt module for building fast web applications with Nuxt.",
   "repository": {
     "type": "git",
