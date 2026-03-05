@@ -1,8 +1,11 @@
 {
   "name": "@nuxtaid/core",
-  "version": "0.0.1",
-  "description": "My new Nuxt module",
-  "repository": "your-org/my-module",
+  "version": "0.0.0",
+  "description": "A Nuxt module for building fast web applications with Nuxt.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nuxtaid/project.git"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
