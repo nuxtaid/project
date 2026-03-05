@@ -2,7 +2,7 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxt/eslint',
-    // '@nuxtaid/core',
+    '@nuxtaid/core',
   ],
 
   devtools: {
